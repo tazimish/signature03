@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Poppins&family=Roboto:wght@100;300;400;700&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Roboto', sans-serif;
+    color: gray;
+}
+.image{
+width: 250px;
+height: 250px;
+overflow: hidden;
+border-radius: 50%;
+margin-top: 20px;
+margin-right: 25px;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+}
+.border{
+    text-transform: capitalize;
+    border-bottom: 4px solid gray;
+   
+    width: fit-content;
+   
+}
+h4{
+    font-size: 25px;
+    font-weight: 400;
+}
+a{
+    text-decoration: none;
+    color: gray;
+    font-size: 25px;
+    font-weight: 400;
+    
+}
+.icon{
+    font-size: 50px;
+   
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+.border2{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 10px;
+    border-left: 3px solid rgb(188, 42, 141);
+    border-top: 3px solid rgb(188, 42, 141);
+    border-right: 3px solid rgb(188, 42, 141);
+    border-bottom: 3px solid rgb(188, 42, 141);
+    width: fit-content;
+    text-transform: capitalize;
+    
+}
+.border2 i{
+    margin-left: 10px;
+    margin-right: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+   
+    font-size: 70px;
+    color: rgb(188, 42, 141);
+   
+}
+.border2 h3{
+    font-size:20px ;
+    font-weight: 400;
+    margin-left: 4px;
+    margin-right: 5px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    
+}
+.border2 h1{
+    font-size:25px ;
+    font-weight: 700px;
+    margin-left: 5px;
+    margin-right: 4px;
+    margin-bottom: 1px;
+    margin-top: 3px;
+    
+}
+
+
+
